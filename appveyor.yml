@@ -8,8 +8,7 @@ environment:
     secure: T6VZrnLyvbW70lkzEcbpfEY9xEQbG0Jkp9vlblr9ixPcjMBsOiq3d6cTrxMSN0sW
 
   matrix:
-  - electron_version: "1.6.8"
-    nodejs_version: "6"
+  - nodejs_version: "4"
 
 platform:
 - x86
