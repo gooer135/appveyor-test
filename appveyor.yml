@@ -63,7 +63,7 @@ install:
     npm config set spin false
 
 build_script:
-- ps: npm install --build-from-source --target_arch=$env:npm_config_arch
+- npm install --build-from-source --target_arch=$env:npm_config_arch
 
 test_script:
 - node-pre-gyp package 2>&1
